@@ -411,7 +411,6 @@
 							const disableBtn = document.querySelectorAll(".disable-btn");
 							if('${loginMember ==null}'){				
 									disableBtn[0].disabled = true;
-									alert('${loginMember.nick}');
 									
 										
 							}else {
